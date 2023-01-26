@@ -1,0 +1,250 @@
+.logo{
+    width: 180px;
+    height: 80px;
+    padding-left: 45px;
+    margin-top: 25px;
+    display: inline-block;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sign-in-button {
+    display: inline-block;
+    float: right;
+    align-items: center;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: none;
+}
+
+.cover1{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%,
+                                         rgba(0,0,0,0.6) 100%),
+                                        url("netflix-cover.jpeg"); 
+    background-position: 100%;
+    background-size: cover;
+    height: 100%;
+    background-repeat:no-repeat;
+}
+
+.title-phrase{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.second-line{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.third-line{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+body{
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-padding{
+    margin-top: 25px;
+    padding-bottom: 190px;
+    margin-left: 26%;
+}
+
+.center{
+    align-content: center;
+    height: 30px;
+    width:;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.box-shape{
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+    padding: 22px 255px 20px 10px;
+}
+
+.get-started{
+    display: inline-block;
+    align-items: center;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 27px;
+    padding: 15px 24px 20px 32px;
+}
+
+.content-row{
+    height: 475px;
+    width: 100%;
+    border-top: 5px solid rgb(52, 51, 51);
+    z-index: 0;
+}
+
+.flex-container-left{
+    display: flexbox;
+    float: left;
+    margin-left: 143px;
+}
+
+.writing-left-large{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.writing-left-medium{
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+}
+
+.flex-container-right{
+    float: right;
+    display: flexbox;
+    margin-top: 40px;
+    margin-right: 120px;
+    height: 397px;
+    width: 530px;
+}
+
+.flex-container-left-2{
+    display: flexbox;
+    float: left;
+    margin-left: 55px;
+    margin-top: 50px;
+    height: 379px;
+    width: 505px;
+    z-index: 0;
+} 
+
+.flex-container-right-2{
+    float: right;
+    display: flexbox;
+    margin-top: -50px;
+    margin-right: 183px;
+}
+.flex-container-left-3{
+    display: flexbox;
+    float: left;
+    margin-left: 140px;
+    margin-top: 60px;
+    height: 379px;
+    width: 505px;
+    z-index: 0;
+} 
+
+.accordian{
+    background: rgb(55, 54, 54);
+    max-width: 770px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 23%;
+    margin-top: 100px;
+}
+
+.accordian__label, .accordian__content{
+    padding: 25px 20px 25px 20px;
+}
+.accordian__label{
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+    font-size: 25px;
+    border-bottom: 10px solid black ;
+}
+
+.accordian__label::after{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.accordian__content {
+    background: rgb(55, 54, 54);
+    font-size: 25px;
+    display: none;
+}
+
+.accordian__input{
+    display: none;
+}
+
+.accordian__input:checked ~ .accordian__content {
+    display:block;
+    
+    border-bottom: 10px solid black;
+}
+
+.footer-text{
+    margin-top: 90px;
+    margin-left: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(105, 102, 102);
+}
+
+.footer-netflix{
+    margin-top: 10px;
+    margin-left: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(105, 102, 102);
+}
+
+.table-text{
+    color: rgb(105, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-styles{
+    margin-left: 17%;
+    margin-right: auto;
+    padding: 27px 10px 22px 0px;
+    font-size: 13px;
+}
+
+tr {
+    padding-top: 10px;
+    
+}
+
+td {
+    padding-bottom: 15px;
+    padding-right: 93px;
+}
